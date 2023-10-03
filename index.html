@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" type="icon" href="f.png">
+    <link rel="stylesheet" href="style.css">
+    <title>facebook</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+          <div class="logo">
+            <a class="logo-text" href="index.html">facebook</a>
+          </div>  
+        </div>
+        <div class="left-section">
+            <img class="img" src="i.png" alt="">
+        </div>
+
+        <div class="right-section">
+            
+        <div class="main-body">
+        <div class="form signup">
+            <div class="inputBox">
+                <input type="text" required="required">
+                <i class="fa-solid fa-user"></i>
+                <span>username</span>
+            </div>
+            <div class="inputBox">
+                <input type="text" required="required">
+                <i class="fa-solid fa-envelope"></i>
+                <span>email</span>
+            </div>
+            <div class="inputBox">
+                <input type="text" required="required">
+                <i class="fa-solid fa-lock"></i>
+                <span>password</span>
+            </div>
+            <p class="z">Zodiac</p>
+
+
+            <div class="menu">
+                <div class="toggle"><ion-icon name="add-outline"></ion-icon></div>
+                <p><small>Bills</small></p>
+                <li style="--i:1;">
+                    <a href="https://www.horoscope.com/zodiac-signs/aries"><ion-icon name="flame-outline"></ion-icon></a>
+                </li>
+                <li style="--i:2;">
+                    <a href="https://www.horoscope.com/zodiac-signs/taurus"><ion-icon name="cash-outline"></ion-icon></a>
+                </li>
+                <li style="--i:3;">
+                    <a href="https://www.horoscope.com/zodiac-signs/gemini"><ion-icon name="bonfire-outline"></ion-icon></a>
+                </li>
+                <li style="--i:4;">
+                    <a href="https://www.horoscope.com/zodiac-signs/cancer"><ion-icon name="ice-cream-outline"></ion-icon></a>
+                </li>
+                <li style="--i:5;">
+                    <a href="https://www.horoscope.com/zodiac-signs/leo"><ion-icon name="aperture-outline"></ion-icon></a>
+                </li>
+                <li style="--i:6;">
+                    <a href="https://www.horoscope.com/zodiac-signs/virgo"><ion-icon name="flash-outline"></ion-icon></a>
+                </li>
+                <li style="--i:7;">
+                    <a href="https://www.horoscope.com/zodiac-signs/libra"><ion-icon name="logo-gitlab"></ion-icon></a>
+                </li>
+                <li style="--i:8;">
+                    <a href="https://www.horoscope.com/zodiac-signs/scorpio"><ion-icon name="battery-dead-outline"></ion-icon></a>
+                </li>
+                <li style="--i:9;">
+                    <a href="https://www.horoscope.com/zodiac-signs/sagittarius"><ion-icon name="pulse-outline"></ion-icon></a>
+                </li>
+                <li style="--i:10;">
+                    <a href="https://www.horoscope.com/zodiac-signs/capricorn"><ion-icon name="leaf-outline"></ion-icon></a>
+                </li>
+                <li style="--i:11;">
+                    <a href="https://www.horoscope.com/zodiac-signs/aquarius"><ion-icon name="water-outline"></ion-icon></a>
+                </li>
+                <li style="--i:12;">
+                    <a href="https://www.horoscope.com/zodiac-signs/pisces"><ion-icon name="fish-outline"></ion-icon></a>
+                    
+                </li>
+            </div>
+        
+            
+            <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        
+            <script>
+                let toggle = document.querySelector('.toggle');
+                let menu = document.querySelector('.menu');
+                toggle.onclick = function(){
+                    menu.classList.toggle('active')
+                }
+            </script>
+            <script>
+        
+                var menuList = document.getElementById("menuList");
+        
+                menuList.style.maxHeight = "0px";
+        
+                function togglemenu(){
+        
+                    if(menuList.style.maxHeight == "0px")
+                        {
+                            menuList.style.maxHeight = "130px";
+                        }
+                    else
+                        {
+                            menuList.style.maxHeight = "0px";
+                        }
+        
+                }
+            </script>
+
+
+            <div class="inputBox">
+                <a href="submit.html">
+                <input type="submit" required="Create Account">
+                </a><br><br>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
